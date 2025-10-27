@@ -44,7 +44,7 @@ La lógica de auditoría diseñada en SQL se implementó como un framework de au
 
 ---
 
-## 💻 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **Python 3.x**
 * **Pandas** (Para la manipulación y análisis de datos)
@@ -54,7 +54,7 @@ La lógica de auditoría diseñada en SQL se implementó como un framework de au
 
 ---
 
-## 🚀 Cómo Ejecutar este Proyecto
+##  Cómo Ejecutar este Proyecto
 
 Para replicar los resultados y ejecutar el framework de pruebas automatizadas:
 
@@ -89,7 +89,7 @@ Para replicar los resultados y ejecutar el framework de pruebas automatizadas:
 
 ---
 
-## 📁 Archivos del Repositorio
+##  Archivos del Repositorio
 
 * `test_data_quality_suite.py`
 * `Prueba_Tecnica_Data_Quality_ETL_Tester.pdf`
