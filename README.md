@@ -59,10 +59,10 @@ La lógica de auditoría diseñada en SQL se implementó como un framework de au
 Para replicar los resultados y ejecutar el framework de pruebas automatizadas:
 
 1.  **Clonar el repositorio:**
-    *(Nota: Reemplaza la URL de abajo con la URL HTTPS de tu propio repositorio)*
+  
     ```bash
-    git clone [https://github.com/avhardcore03-cpu/Prueba_Tecnica_Data_Quality_ETL_Tester-Devco.git](https://github.com/avhardcore03-cpu/Prueba_Tecnica_Data_Quality_ETL_Tester-Devco.git)
-    cd Prueba_Tecnica_Data_Quality_ETL_Tester-Devco
+    git clone [https://github.com/avhardcore03-cpu/data-quality-etl-test.git](https://github.com/avhardcore03-cpu/data-quality-etl-test.git)
+    cd data-quality-etl-test
     ```
 
 2.  **(Opcional pero recomendado) Crear un entorno virtual:**
@@ -89,10 +89,11 @@ Para replicar los resultados y ejecutar el framework de pruebas automatizadas:
 
 ---
 
-## 📁 Archivos Clave del Repositorio
+## 📁 Archivos del Repositorio
 
-* `test_data_quality_suite.py`: El archivo Python que contiene el framework de automatización con Pytest y Pandas.
-* `Prueba_Tecnica_Data_Quality_ETL_Tester.pdf`: El documento original con los requisitos de la prueba.
-* `Exploracion_y_Sustentacion.ipynb`: (Opcional) El Notebook de Jupyter utilizado para el análisis exploratorio y la sustentación paso a paso.
-* `requirements.txt`: El archivo que lista las dependencias de Python (pandas, pytest).
-* `README.md`: Este archivo.
+* test_data_quality_suite.py: El framework de automatización con Pytest.
+*Sustentacion_Prueba_Tecnica_QA.ipynb: El Notebook de Jupyter con la exploración y ejecución.
+*README.md: Este archivo.
+*requirements.txt: Las librerías de Python necesarias.
+*.gitignore: Archivo para excluir archivos de caché de Python y Jupyter.
+*Prueba_Tecnica_Data_Quality_ETL_Tester.pdf: El PDF original del desafío.
