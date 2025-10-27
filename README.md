@@ -1,15 +1,15 @@
 # Prueba Técnica: Automatización de Pruebas de Calidad de Datos (ETL)
 
-Este repositorio contiene la solución completa a la prueba técnica diseñada para el rol de Especialista en Automatización de Pruebas de Datos (Data Quality ETL Tester).
+Este repositorio contiene la solución completa a la prueba técnica para el rol de Data Quality ETL Tester.
 
-El objetivo de las pruebas es demostrar la capacidad de:
+El objetivo de las pruebas es demostrar mi capacidad de:
 
 * Diseñar lógicas de auditoría de datos complejas usando SQL.
 * Implementar un framework de pruebas automatizadas mantenible y escalable usando Python, Pandas y Pytest.
 
 ---
 
-## 🎯 El Desafío
+##  La prueba.
 
 A partir de dos conjuntos de datos de ingesta (`customers_raw` y `transactions_raw`) que contienen problemas de calidad de datos comunes (valores NULL, registros duplicados y violaciones de integridad referencial), el desafío se dividió en dos partes:
 
@@ -18,7 +18,7 @@ A partir de dos conjuntos de datos de ingesta (`customers_raw` y `transactions_r
 
 ---
 
-## 🛠️ Solución Implementada
+##  Solución Implementada
 
 La solución se abordó en dos fases, replicando un flujo de trabajo profesional.
 
@@ -49,8 +49,8 @@ La lógica de auditoría diseñada en SQL se implementó como un framework de au
 * **Python 3.x**
 * **Pandas** (Para la manipulación y análisis de datos)
 * **Pytest** (Para el framework de automatización y aserciones)
-* **SQL** (Para el diseño de la lógica de auditoría)
-* **Jupyter Notebook** (Usado como entorno de desarrollo y exploración)
+* **SQL** (Para el diseño de la lógica de la auditoría)
+* **Jupyter Notebook** (Usado como entorno de desarrollo)
 
 ---
 
@@ -91,9 +91,9 @@ Para replicar los resultados y ejecutar el framework de pruebas automatizadas:
 
 ## 📁 Archivos del Repositorio
 
-* test_data_quality_suite.py: El framework de automatización con Pytest.
-*Sustentacion_Prueba_Tecnica_QA.ipynb: El Notebook de Jupyter con la exploración y ejecución.
-*README.md: Este archivo.
-*requirements.txt: Las librerías de Python necesarias.
-*.gitignore: Archivo para excluir archivos de caché de Python y Jupyter.
-*Prueba_Tecnica_Data_Quality_ETL_Tester.pdf: El PDF original del desafío.
+* `test_data_quality_suite.py`
+* `Prueba_Tecnica_Data_Quality_ETL_Tester.pdf`
+* `Validacion_ETL_Data_Quality.ipynb`
+* `Prueba_Tecnica_Data_Quality_ETL_Tester.docx`
+* `requirements.txt`
+* `README.md`
